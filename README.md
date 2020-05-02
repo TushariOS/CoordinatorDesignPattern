@@ -3,12 +3,12 @@ Demo of Coordinator design pattern.
 
 
 ## Purpose
-_DropDownMenu_ is repo for How to use the coordinator pattern in iOS apps
+_CoordinatorDesignPattern_ is repo for How to use the coordinator pattern in iOS apps
 
 ## Authors
 - Tushar Jaunjalkar
 
-## What you will learn:
+## What you will learn?:
 - Coordinator design pattern
 - Swift 5.0
 - Storyboards
