@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781388C72330A76100D3BACB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781388C62330A76100D3BACB /* ProfileViewController.swift */; };
+		781388C92330A77000D3BACB /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781388C82330A77000D3BACB /* Profile.storyboard */; };
+		781388CB2330A96800D3BACB /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781388CA2330A96800D3BACB /* ProfileCoordinator.swift */; };
+		7820E4D6232BE08900D65CB8 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820E4D5232BE08900D65CB8 /* BuyCoordinator.swift */; };
 		783CD9F52323D1F800051DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD9F42323D1F800051DAE /* AppDelegate.swift */; };
 		783CD9F72323D1F800051DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD9F62323D1F800051DAE /* ViewController.swift */; };
 		783CD9FA2323D1F800051DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783CD9F82323D1F800051DAE /* Main.storyboard */; };
 		783CD9FC2323D1FA00051DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783CD9FB2323D1FA00051DAE /* Assets.xcassets */; };
 		783CD9FF2323D1FA00051DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783CD9FD2323D1FA00051DAE /* LaunchScreen.storyboard */; };
+		783CDA072323D22100051DAE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDA062323D22100051DAE /* Coordinator.swift */; };
+		783CDA0A2323D2F900051DAE /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDA092323D2F900051DAE /* Storyboarded.swift */; };
+		783CDA0C2323D47E00051DAE /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDA0B2323D47E00051DAE /* BuyViewController.swift */; };
+		783CDA0E2323D49000051DAE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDA0D2323D49000051DAE /* AccountViewController.swift */; };
+		783CDA102323D5BB00051DAE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDA0F2323D5BB00051DAE /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		781388C62330A76100D3BACB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		781388C82330A77000D3BACB /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		781388CA2330A96800D3BACB /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		7820E4D5232BE08900D65CB8 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		783CD9F12323D1F800051DAE /* DoordinatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoordinatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		783CD9F42323D1F800051DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		783CD9F62323D1F800051DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,11 @@
 		783CD9FB2323D1FA00051DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783CD9FE2323D1FA00051DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783CDA002323D1FA00051DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783CDA062323D22100051DAE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		783CDA092323D2F900051DAE /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		783CDA0B2323D47E00051DAE /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		783CDA0D2323D49000051DAE /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		783CDA0F2323D5BB00051DAE /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		781388CC2330BB9900D3BACB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				783CD9F82323D1F800051DAE /* Main.storyboard */,
+				781388C82330A77000D3BACB /* Profile.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		783CD9E82323D1F800051DAE = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +81,46 @@
 		783CD9F32323D1F800051DAE /* DoordinatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				78FC1DEC245DA7C800A06CC2 /* ViewController */,
+				781388CC2330BB9900D3BACB /* Storyboards */,
+				783CDA082323D2B800051DAE /* Coordinators */,
 				783CD9F42323D1F800051DAE /* AppDelegate.swift */,
-				783CD9F62323D1F800051DAE /* ViewController.swift */,
-				783CD9F82323D1F800051DAE /* Main.storyboard */,
 				783CD9FB2323D1FA00051DAE /* Assets.xcassets */,
 				783CD9FD2323D1FA00051DAE /* LaunchScreen.storyboard */,
 				783CDA002323D1FA00051DAE /* Info.plist */,
 			);
 			path = DoordinatorDemo;
+			sourceTree = "<group>";
+		};
+		783CDA082323D2B800051DAE /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				783CDA062323D22100051DAE /* Coordinator.swift */,
+				783CDA092323D2F900051DAE /* Storyboarded.swift */,
+				783CDA0F2323D5BB00051DAE /* MainCoordinator.swift */,
+				7820E4D5232BE08900D65CB8 /* BuyCoordinator.swift */,
+				781388CA2330A96800D3BACB /* ProfileCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		78ED42FF2330A7170019A66D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				781388C62330A76100D3BACB /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		78FC1DEC245DA7C800A06CC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78ED42FF2330A7170019A66D /* Profile */,
+				783CDA0D2323D49000051DAE /* AccountViewController.swift */,
+				783CDA0B2323D47E00051DAE /* BuyViewController.swift */,
+				783CD9F62323D1F800051DAE /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +183,7 @@
 			files = (
 				783CD9FF2323D1FA00051DAE /* LaunchScreen.storyboard in Resources */,
 				783CD9FC2323D1FA00051DAE /* Assets.xcassets in Resources */,
+				781388C92330A77000D3BACB /* Profile.storyboard in Resources */,
 				783CD9FA2323D1F800051DAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +196,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				783CD9F72323D1F800051DAE /* ViewController.swift in Sources */,
+				783CDA102323D5BB00051DAE /* MainCoordinator.swift in Sources */,
+				783CDA0C2323D47E00051DAE /* BuyViewController.swift in Sources */,
+				7820E4D6232BE08900D65CB8 /* BuyCoordinator.swift in Sources */,
+				783CDA0E2323D49000051DAE /* AccountViewController.swift in Sources */,
 				783CD9F52323D1F800051DAE /* AppDelegate.swift in Sources */,
+				781388C72330A76100D3BACB /* ProfileViewController.swift in Sources */,
+				783CDA072323D22100051DAE /* Coordinator.swift in Sources */,
+				781388CB2330A96800D3BACB /* ProfileCoordinator.swift in Sources */,
+				783CDA0A2323D2F900051DAE /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tushar.DoordinatorDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DoordinatorDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,7 +374,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tushar.DoordinatorDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DoordinatorDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
